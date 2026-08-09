@@ -1,0 +1,6 @@
+@echo off
+echo [*] Installing dependencies for AHM Web Scanner...
+pip install -r requirements.txt
+echo [*] Starting AHM Web Scanner...
+python main.py
+pause

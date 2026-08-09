@@ -1,0 +1,4 @@
+httpx>=0.24.0
+rich>=13.0.0
+reportlab>=4.0.0
+urllib3>=1.26.0
