@@ -14,8 +14,8 @@
 ##  Overview & Capabilities
 
 **AHM Web Scanner** is an automated web security evaluation tool designed to detect vulnerabilities, discover hidden portals, and audit web applications with zero false-positive validation logic.
+### 🧩 Included Modules
 
-### Included Modules:
 * **Module 1 (Security Headers):** Audits missing security headers (HSTS, CSP, X-Frame-Options) and server fingerprints.
 * **Module 2 (Sensitive Paths):** Scans for exposed endpoints, backups, and configurations.
 * **Module 3 (Methods & CORS):** Audits unsafe HTTP methods and cross-origin permissions.
@@ -24,7 +24,12 @@
 * **Module 6 (Verification Engine):** Filters out false positives using real-time HTTP response validation.
 * **Module 7 (Subdomain Discovery):** Identifies target subdomains and portals using Certificate Transparency logs.
 * **Module 8 (Admin & Portal Finder):** Locates administrative interfaces and login dashboards.
-* **PDF Report Generator:** Compiles audit findings into a formal PDF report complete with technical root causes and remediation recommendations.
+* **Module 9 (Directory Brute-Forcer):** Discovers hidden directory structures and sensitive files.
+* **Module 10 (SSL/TLS Scanner):** Inspects SSL certificates, expiration dates, and protocol vulnerabilities.
+* **Module 11 (Command Injection Test):** Detects Remote Code Execution (RCE) flaws in parameters.
+* **Module 12 (YAML Rules Engine):** Integrates custom detection templates for advanced vulnerability matching.
+* **📄 PDF Report Generator:** Compiles audit findings into a formal PDF report complete with technical root causes and remediation recommendations.
+
 
 ---
 
