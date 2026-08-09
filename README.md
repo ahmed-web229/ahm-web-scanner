@@ -14,21 +14,21 @@
 ##  Overview & Capabilities
 
 **AHM Web Scanner** is an automated web security evaluation tool designed to detect vulnerabilities, discover hidden portals, and audit web applications with zero false-positive validation logic.
+
 ### 🧩 Included Modules
 
-* **Module 1 (Security Headers):** Audits missing security headers (HSTS, CSP, X-Frame-Options) and server fingerprints.
-* **Module 2 (Sensitive Paths):** Scans for exposed endpoints, backups, and configurations.
-* **Module 3 (Methods & CORS):** Audits unsafe HTTP methods and cross-origin permissions.
-* **Module 4 (Reflected XSS):** Tests reflected cross-site scripting inputs with verification logic.
-* **Module 5 (SQL Injection):** Tests dynamic parameters for SQL injection vulnerabilities.
-* **Module 6 (Verification Engine):** Filters out false positives using real-time HTTP response validation.
-* **Module 7 (Subdomain Discovery):** Identifies target subdomains and portals using Certificate Transparency logs.
-* **Module 8 (Admin & Portal Finder):** Locates administrative interfaces and login dashboards.
-* **Module 9 (Directory Brute-Forcer):** Discovers hidden directory structures and sensitive files.
-* **Module 10 (SSL/TLS Scanner):** Inspects SSL certificates, expiration dates, and protocol vulnerabilities.
-* **Module 11 (Command Injection Test):** Detects Remote Code Execution (RCE) flaws in parameters.
-* **Module 12 (YAML Rules Engine):** Integrates custom detection templates for advanced vulnerability matching.
-* **📄 PDF Report Generator:** Compiles audit findings into a formal PDF report complete with technical root causes and remediation recommendations.
+* **Module 1 (Security Headers - `m1_headers.py`):** Audits missing security headers (HSTS, CSP, X-Frame-Options) and server fingerprints.
+* **Module 2 (Sensitive Paths - `m2_paths.py`):** Scans for exposed endpoints, backups, and configurations.
+* **Module 3 (Methods & CORS - `m3_methods.py`):** Audits unsafe HTTP methods and cross-origin permissions.
+* **Module 4 (Reflected XSS - `m4_xss.py`):** Tests reflected cross-site scripting inputs with verification logic.
+* **Module 5 (SQL Injection - `m5_sqli.py`):** Tests dynamic parameters for SQL injection vulnerabilities.
+* **Module 6 (Verification Engine - `m6_verifier.py`):** Filters out false positives using real-time HTTP response validation.
+* **Module 7 (Subdomain Discovery - `m7_subdomains.py`):** Identifies target subdomains and portals using Certificate Transparency logs.
+* **Module 8 (Admin Finder - `m8_admin_finder.py`):** Locates administrative interfaces and login dashboards.
+* **Module 9 (Dependencies Audit - `m9_dependencies.py`):** Scans project dependencies for known vulnerabilities and security risks.
+* **Module 10 (WAF Detection - `m10_waf.py`):** Detects Web Application Firewalls (WAF) protecting the target server.
+* **Module 11 (SSL/TLS Inspector - `m11_ssl.py`):** Checks SSL/TLS configurations, expiration dates, and transport security.
+* **📄 PDF Report Generator (`pdf_generator.py`):** Compiles audit findings into a formal PDF report complete with technical details and remediation steps.
 
 
 ---
