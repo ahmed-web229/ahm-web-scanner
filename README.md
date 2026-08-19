@@ -1,4 +1,5 @@
 # AHM Web Scanner v1.0
+![AHM Web Scanner Preview](preview.png)
 > **Automated Web Vulnerability Auditor with Zero False-Positive Engine**
 
 ---
